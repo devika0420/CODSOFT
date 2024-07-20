@@ -1,4 +1,3 @@
-
 def add(x, y):
 return x + y
 def subtract(x, y):
@@ -11,12 +10,12 @@ raise ValueError("Cannot divide by zero!")
 return x / y
 def calculator():
 Print("Welcome to Calculator!")
-print("Select operation")
+print("Select operation:")
 print("1. Add")
 print("2. Subtract")
 print("3. MUltiply")
 print("4. Divide")
-choice = input("Enter First number: ")
+choice = input("Enter choice (1/2/3/4): ")
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter secound number: "))
 result = 0
